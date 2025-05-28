@@ -15,7 +15,18 @@ recordatorios = [
 evento1 = ['2021-02-02', "06:00", "Empezar el Año"]
 recordatorios.insert(1,evento1)
 
-#2
+#2.
+recordatorios[3][0] = '2021-07-16'
+
+#3.
+evento_eliminado = recordatorios.pop(2)
+
+#4.
+evento2 = ['2021-12-24', "22:00", "Cena de Navidad"]
+recordatorios.insert(4,evento2)
+
+evento3 = ['2021-12-31', "22:00", "Cena de Año Nuevo"]
+recordatorios.insert(6,evento3)
 
 # Output
 print(recordatorios)
